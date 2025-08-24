@@ -61,7 +61,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'cosmic-orange': 'hsl(var(--cosmic-orange))',
+				'cosmic-blue': 'hsl(var(--cosmic-blue))',
+				'cosmic-dark': 'hsl(var(--cosmic-dark))',
+				'text-primary': 'hsl(var(--text-primary))',
+				'text-secondary': 'hsl(var(--text-secondary))'
+			},
+			fontFamily: {
+				'heading': 'var(--font-heading)',
+				'body': 'var(--font-body)'
+			},
+			backgroundImage: {
+				'gradient-cosmic': 'var(--gradient-cosmic)',
+				'gradient-accent': 'var(--gradient-accent)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

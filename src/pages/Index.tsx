@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.png";
 
 const Index = () => {
   return (
@@ -12,171 +12,41 @@ const Index = () => {
         
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-5xl md:text-7xl font-light tracking-wide text-text-primary font-heading">
-            Engineering Genius
+            Human Superintelligence
           </h1>
           
           <div className="space-y-6 text-lg md:text-xl leading-relaxed text-text-secondary max-w-3xl mx-auto">
             <p>
-              Anysphere is an applied research lab working on automating coding. Our approach is to build 
-              the engineer of the future: a human-AI programmer that's an order of magnitude more 
-              effective than any one programmer.
+              Conscience is an applied research lab working on enhancing human AI complementarity, the problem is simple: with the advent of more advance AI systems, overeliance on AI may cause human reasoning to deplete and undereliance may not allow us to use AI to it's full potential, hence we need better interactive environments and user interfaces that do not make us dumb in long term, while at the same time allow us to utilise AI's full potential.
             </p>
             
             <p>
-              This hybrid engineer will have effortless control over their codebase and no low-entropy 
-              keystrokes. They will iterate at the speed of their judgment, even in the most complex 
-              systems. Using a combination of AI and human ingenuity, they will out-smart and out-engineer 
-              the best pure-AI system.
+              We work at the intersection of cognitive sciences, human psychology, advanced engineering, and research, collaborating with the best doctors, psychologists, and DL/ML researchers to deliver one of the most essential products humanity will need in the long term.
             </p>
             
-            <p>
-              We are a group of researchers and engineers. We build software and models to invent at the 
-              edge of what's useful and what's possible. Our{" "}
-              <a 
-                href="https://cursor.com/" 
-                className="text-cosmic-orange hover:text-cosmic-blue transition-colors underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                work
-              </a>{" "}
-              has already improved the lives of millions of programmers.
-            </p>
-            
-            <p>If this excites you, we'd love to hear from you.</p>
+            <p>If you think this is something that excites you, then please reach out to us</p>
             
             <p className="text-base">
               — <a 
-                href="https://twitter.com/amanrsanger" 
+                href="https://x.com/aditya_g1001" 
                 className="text-cosmic-orange hover:text-cosmic-blue transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Aman
+                Aditya
               </a>, <a 
-                href="https://www.sualehasif.me/" 
+                href="https://ashpect.notion.site/Hi-I-am-Ashish-4af23bcefab14e86a6fd581a41871478" 
                 className="text-cosmic-orange hover:text-cosmic-blue transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Sualeh
-              </a>, <a 
-                href="https://mntruell.com/" 
-                className="text-cosmic-orange hover:text-cosmic-blue transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Michael
-              </a>, <a 
-                href="https://arvid.xyz/" 
-                className="text-cosmic-orange hover:text-cosmic-blue transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Arvid
-              </a>, and the entire Anysphere team
+                Ashish
+              </a>
             </p>
           </div>
         </div>
       </section>
 
-      {/* Careers Section */}
-      <section className="py-20 px-6 bg-gradient-cosmic">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-light mb-16 text-text-primary text-center font-heading">
-            Careers
-          </h2>
-          
-          <div className="space-y-12">
-            {/* Engineering Section */}
-            <div>
-              <h3 className="text-2xl font-medium mb-8 text-text-primary font-heading">
-                Engineering
-              </h3>
-              <div className="space-y-4">
-                <JobListing 
-                  title="Infrastructure Engineer" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/infrastructure_engineer"
-                />
-                <JobListing 
-                  title="Research Engineer" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/research_engineer"
-                />
-                <JobListing 
-                  title="Product Engineer" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/product_engineer"
-                />
-                <JobListing 
-                  title="Enterprise Product Engineer" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/enterprise_product_engineer"
-                />
-                <JobListing 
-                  title="Enterprise Engineering Manager" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/enterprise_engineering_manager"
-                />
-              </div>
-            </div>
-
-            {/* Go-to-Market Section */}
-            <div>
-              <h3 className="text-2xl font-medium mb-8 text-text-primary font-heading">
-                Go-to-Market
-              </h3>
-              <div className="space-y-4">
-                <JobListing 
-                  title="Account Executive" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/enterprise_ae"
-                />
-                <JobListing 
-                  title="Technical Account Manager" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/technical_account_manager"
-                />
-                <JobListing 
-                  title="Field Engineer" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/field_engineer"
-                />
-                <JobListing 
-                  title="Technical Support Engineer" 
-                  location="San Francisco / New York"
-                  href="https://anysphere.inc/careers/technical_support_engineer"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-};
-
-interface JobListingProps {
-  title: string;
-  location: string;
-  href: string;
-}
-
-const JobListing = ({ title, location, href }: JobListingProps) => {
-  return (
-    <div className="flex justify-between items-center py-4 border-b border-border/30 hover:border-cosmic-orange/50 transition-colors">
-      <a 
-        href={href}
-        className="text-cosmic-orange hover:text-cosmic-blue transition-colors text-lg font-medium"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {title}
-      </a>
-      <span className="text-text-secondary text-base">
-        {location}
-      </span>
     </div>
   );
 };

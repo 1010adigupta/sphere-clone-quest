@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.png";
+const heroBg = "/lovable-uploads/29c6b39a-4625-4805-86f3-613f106f671c.png";
 
 const Index = () => {
   return (

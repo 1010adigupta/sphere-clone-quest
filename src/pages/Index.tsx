@@ -5,10 +5,10 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
       <section 
-        className="min-h-screen flex flex-col justify-center items-center px-6 relative bg-cover bg-center bg-no-repeat"
+        className="min-h-screen flex flex-col justify-center items-center px-6 relative bg-cover bg-top bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
-        <div className="absolute inset-0 bg-background/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/40 to-background/80" />
         
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-5xl md:text-7xl font-light tracking-wide text-text-primary font-heading">
